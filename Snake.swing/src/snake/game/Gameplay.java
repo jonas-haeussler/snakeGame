@@ -41,8 +41,8 @@ public class Gameplay implements KeyListener {
 		width = x;
 		height = y;
 		try {
-			File file = new File("C:/Arbeit/snake.swing/src/snake/game/song.wav");
-			File file2 = new File("C:/Arbeit/snake.swing/src/snake/game/punch.wav");
+			File file = new File("src/snake/game/song.wav");
+			File file2 = new File("src/snake/game/punch.wav");
 			AudioInputStream music = AudioSystem.getAudioInputStream(file);
 			AudioFormat af = music.getFormat();
 			int sizeOfMusic = (int) (af.getFrameSize() * music.getFrameLength());

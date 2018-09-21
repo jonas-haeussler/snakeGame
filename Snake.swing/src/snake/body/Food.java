@@ -17,7 +17,7 @@ public class Food {
 		this.y = y;
 		ImageIcon foodIcon = new ImageIcon();
 		try {
-			foodIcon.setImage(ImageIO.read(new File("C:/Arbeit/snake.swing/src/snake/game/food.png")).getScaledInstance(30, 30, Image.SCALE_DEFAULT));
+			foodIcon.setImage(ImageIO.read(new File("src/snake/game/food.png")).getScaledInstance(30, 30, Image.SCALE_DEFAULT));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

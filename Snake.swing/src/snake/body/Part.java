@@ -26,10 +26,10 @@ public class Part {
 			
 			ImageIcon snakeIcon = new ImageIcon();
 			if(isHead) {
-				snakeIcon.setImage(ImageIO.read(new File("C:/Arbeit/snake.swing/src/snake/game/snake.png")).getScaledInstance(40, 40 , Image.SCALE_DEFAULT));
+				snakeIcon.setImage(ImageIO.read(new File("src/snake/game/snake.png")).getScaledInstance(40, 40 , Image.SCALE_DEFAULT));
 			}
 			else {
-				snakeIcon.setImage(ImageIO.read(new File("C:/Arbeit/snake.swing/src/snake/game/tail.png")).getScaledInstance(40, 40, Image.SCALE_DEFAULT));
+				snakeIcon.setImage(ImageIO.read(new File("src/snake/game/tail.png")).getScaledInstance(40, 40, Image.SCALE_DEFAULT));
 			}
 			headLabel = new JLabel(snakeIcon);
 //			headLabel.setLocation(x, y);
